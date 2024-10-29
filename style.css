@@ -1,0 +1,198 @@
+*{
+    list-style-type: none;
+
+}
+
+
+.ul-menu{
+background-color: #333;
+color: #ffffff;
+
+overflow: hidden;
+text-align: center;
+}
+
+.li-menu{
+    float: left;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+    
+}
+
+.li-menu a:hover{
+    background-color: black;
+}
+
+.title-menu{
+    display: inline;
+    font-size: 30px;
+}
+
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.social{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+
+.right{
+    width:80%;
+    float: right;
+}
+
+.row{
+    padding: 10px;
+}
+
+.row::after{
+    display: table;
+    clear:both;
+    content: "";
+}
+
+.main-bar{
+    background-color: gray;
+    display: block;
+    height: 25px;
+}
+
+.main-bar span{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+
+.javascript{
+    width: 90%;
+    animation: javascript 4s;
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+        /* background-color */
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.flutter{
+    width: 30%;
+    animation: flutter 4s;
+
+}
+
+@keyframes flutter{
+    0%{
+        width: 0%;
+        }
+    100%{
+        width: 30%;
+    }
+}
+
+
+.security{
+    width: 60%;
+    animation: security 4s;
+
+}
+
+@keyframes security{
+    0%{
+        width: 0%;
+        }
+    100%{
+        width: 60%;
+    }
+}
+
+.react{
+    width: 80%;
+    animation: react 4s;
+
+}
+
+@keyframes react{
+    0%{
+        width: 0%;
+        }
+    100%{
+        width: 80%;
+    }
+}
+
+.photoshop{
+    width: 15%;
+    animation: photoshop 4s;
+
+}
+
+@keyframes photoshop{
+    0%{
+        width: 0%;
+        }
+    100%{
+        width: 15%;
+    }
+}
+
+.illustrator{
+    width: 10%;
+    animation: illustrator 4s;
+
+}
+
+@keyframes illustrator{
+    0%{
+        width: 0%;
+        }
+    100%{
+        width: 10%;
+    }
+}
+
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color:#333 ;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+.column{
+    width: 100%;
+}
+    
+}
+
+
+
+
+
